@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 2019-12-23_17-36-26)(type Legacy)(uri C:/UltraLibrarian/Library/Exported/KiCad/2019-12-23_17-36-26/2019-12-23_17-36-26/2019-12-23_17-36-26.lib)(options "")(descr ""))
+  (lib (name 2019-12-23_17-37-20)(type Legacy)(uri C:/UltraLibrarian/Library/Exported/KiCad/2019-12-23_17-37-20/2019-12-23_17-37-20/2019-12-23_17-37-20.lib)(options "")(descr ""))
+  (lib (name 2019-12-23_18-10-30)(type Legacy)(uri C:/UltraLibrarian/Library/Exported/KiCad/2019-12-23_18-10-30/2019-12-23_18-10-30/2019-12-23_18-10-30.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri "C:/Users/arnau/Desktop/SMARTRONICS/GALAM ROBOTICS/layout/PCB/takone/New_Library.lib")(options "")(descr ""))
+  (lib (name takone-rescue)(type Legacy)(uri ${KIPRJMOD}/takone-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,239 @@
+EESchema Schematic File Version 4
+LIBS:takone-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3400 3850 2100 2050
+U 5E011D49
+F0 "command" 50
+F1 "command.sch" 50
+$EndSheet
+$Sheet
+S 5700 3850 2100 2050
+U 5E011D62
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5E0128F6
+P 6550 2400
+F 0 "J1" H 6630 2442 50  0000 L CNN
+F 1 "Conn_01x01" H 6630 2351 50  0000 L CNN
+F 2 "perso:hole" H 6550 2400 50  0001 C CNN
+F 3 "~" H 6550 2400 50  0001 C CNN
+	1    6550 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5E012934
+P 6550 2800
+F 0 "J2" H 6630 2842 50  0000 L CNN
+F 1 "Conn_01x01" H 6630 2751 50  0000 L CNN
+F 2 "perso:hole" H 6550 2800 50  0001 C CNN
+F 3 "~" H 6550 2800 50  0001 C CNN
+	1    6550 2800
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 3400 1650 2100 2000
+U 5E266262
+F0 "alim" 50
+F1 "alim.sch" 50
+$EndSheet
+Text GLabel 6900 2400 2    50   Input ~ 0
++48V
+$Comp
+L power:GNDREF #PWR01
+U 1 1 5E2685DC
+P 6900 2800
+F 0 "#PWR01" H 6900 2550 50  0001 C CNN
+F 1 "GNDREF" V 6905 2672 50  0000 R CNN
+F 2 "" H 6900 2800 50  0001 C CNN
+F 3 "" H 6900 2800 50  0001 C CNN
+	1    6900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E0B82B6
+P 8600 1900
+F 0 "#FLG02" H 8600 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 2073 50  0000 C CNN
+F 2 "" H 8600 1900 50  0001 C CNN
+F 3 "~" H 8600 1900 50  0001 C CNN
+	1    8600 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E11B24B
+P 9000 950
+AR Path="/5E011D62/5E11B24B" Ref="#PWR?"  Part="1" 
+AR Path="/5E11B24B" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 9000 700 50  0001 C CNN
+F 1 "GND" H 9005 777 50  0000 C CNN
+F 2 "" H 9000 950 50  0001 C CNN
+F 3 "" H 9000 950 50  0001 C CNN
+	1    9000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5E11B251
+P 9400 950
+AR Path="/5E011D62/5E11B251" Ref="#PWR?"  Part="1" 
+AR Path="/5E11B251" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 9400 750 50  0001 C CNN
+F 1 "GNDPWR" H 9400 800 50  0000 C CNN
+F 2 "" H 9400 900 50  0001 C CNN
+F 3 "" H 9400 900 50  0001 C CNN
+	1    9400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E11B257
+P 9000 950
+AR Path="/5E011D62/5E11B257" Ref="#FLG?"  Part="1" 
+AR Path="/5E11B257" Ref="#FLG03"  Part="1" 
+F 0 "#FLG03" H 9000 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 1124 50  0000 C CNN
+F 2 "" H 9000 950 50  0001 C CNN
+F 3 "~" H 9000 950 50  0001 C CNN
+	1    9000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E11B25D
+P 9400 950
+AR Path="/5E011D62/5E11B25D" Ref="#FLG?"  Part="1" 
+AR Path="/5E11B25D" Ref="#FLG05"  Part="1" 
+F 0 "#FLG05" H 9400 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9400 1124 50  0000 C CNN
+F 2 "" H 9400 950 50  0001 C CNN
+F 3 "~" H 9400 950 50  0001 C CNN
+	1    9400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E1746A7
+P 9850 950
+AR Path="/5E011D49/5E1746A7" Ref="#FLG?"  Part="1" 
+AR Path="/5E1746A7" Ref="#FLG07"  Part="1" 
+F 0 "#FLG07" H 9850 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9850 1124 50  0000 C CNN
+F 2 "" H 9850 950 50  0001 C CNN
+F 3 "~" H 9850 950 50  0001 C CNN
+	1    9850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR05
+U 1 1 5E1746AD
+P 9850 950
+AR Path="/5E1746AD" Ref="#PWR05"  Part="1" 
+AR Path="/5E011D49/5E1746AD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR05" H 9850 700 50  0001 C CNN
+F 1 "GNDD" H 9950 800 50  0000 R CNN
+F 2 "" H 9850 950 50  0001 C CNN
+F 3 "" H 9850 950 50  0001 C CNN
+	1    9850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2800 6900 2800
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5E177566
+P 8600 950
+F 0 "#PWR02" H 8600 700 50  0001 C CNN
+F 1 "GNDREF" V 8605 822 50  0000 R CNN
+F 2 "" H 8600 950 50  0001 C CNN
+F 3 "" H 8600 950 50  0001 C CNN
+	1    8600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E177583
+P 8600 950
+AR Path="/5E011D62/5E177583" Ref="#FLG?"  Part="1" 
+AR Path="/5E177583" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 8600 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 1124 50  0000 C CNN
+F 2 "" H 8600 950 50  0001 C CNN
+F 3 "~" H 8600 950 50  0001 C CNN
+	1    8600 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 1900 1    50   Input ~ 0
++48V
+Wire Wire Line
+	6750 2400 6900 2400
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5E177668
+P 9050 1900
+F 0 "#FLG04" H 9050 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9050 2073 50  0000 C CNN
+F 2 "" H 9050 1900 50  0001 C CNN
+F 3 "~" H 9050 1900 50  0001 C CNN
+	1    9050 1900
+	-1   0    0    1   
+$EndComp
+Text GLabel 9050 1900 1    50   Input ~ 0
++12V
+$Comp
+L power:GNDA #PWR06
+U 1 1 5E177F59
+P 10250 950
+F 0 "#PWR06" H 10250 700 50  0001 C CNN
+F 1 "GNDA" H 10255 777 50  0000 C CNN
+F 2 "" H 10250 950 50  0001 C CNN
+F 3 "" H 10250 950 50  0001 C CNN
+	1    10250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E177F77
+P 10250 950
+AR Path="/5E011D49/5E177F77" Ref="#FLG?"  Part="1" 
+AR Path="/5E177F77" Ref="#FLG08"  Part="1" 
+F 0 "#FLG08" H 10250 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 10250 1124 50  0000 C CNN
+F 2 "" H 10250 950 50  0001 C CNN
+F 3 "~" H 10250 950 50  0001 C CNN
+	1    10250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG06
+U 1 1 5E177685
+P 9450 1900
+F 0 "#FLG06" H 9450 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9450 2073 50  0000 C CNN
+F 2 "" H 9450 1900 50  0001 C CNN
+F 3 "~" H 9450 1900 50  0001 C CNN
+	1    9450 1900
+	-1   0    0    1   
+$EndComp
+Text GLabel 9450 1900 1    50   Input ~ 0
++3.3V(DIG)
+$EndSCHEMATC
